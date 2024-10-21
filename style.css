@@ -64,7 +64,7 @@ img{
     display: flex;
     align-items: center;
     cursor: pointer;
-    margin: 10px 0;
+    margin: 10px;
     background-color: #ffffff;
     box-shadow: 1px 1px 3px #00000088;
     border-radius: 5px;
@@ -79,5 +79,10 @@ img{
     height: 2px;        
     background-color: #4b002a;
     margin: 20px 0;      
+  }
+
+  .products-list{
+    height: 450px;
+    overflow: scroll;
   }
   

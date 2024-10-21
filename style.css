@@ -84,5 +84,6 @@ img{
   .products-list{
     height: 450px;
     overflow: scroll;
+    margin: 10px;
   }
   

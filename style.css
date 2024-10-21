@@ -24,11 +24,12 @@ h1{
 }
 
 .container{
-    width: 500px;
+    width: 40%;
+    height: 75%;
     padding: 20px;
     border-radius: 5px;
     background-color: #c8d8e4;
-    box-shadow: 2px 2px 10px #00000088;
+    box-shadow: 2px 2px 5px #00000088;
     
 }
 
@@ -93,14 +94,42 @@ img{
   }
 
   .products-list{
-    height: 450px;
+    height: 70%;
     margin: 10px;
-    overflow-y: scroll; /* Keep scrolling enabled */
-  scrollbar-width: none; /* For Firefox */
+    overflow-y: scroll;
+  scrollbar-width: none; 
   -ms-overflow-style: none; 
   }
   
 
   .products-list::-webkit-scrollbar {
-    display: none; /* For Chrome, Safari, and Opera */
+    display: none; 
   }
+
+
+  @media screen and (max-width:470px) {
+   
+   body{
+    padding: 10px;
+    
+   }
+    .container{
+       width: 100%;
+       margin: 10px; 
+    }
+    
+  }
+
+  
+  @media screen and (max-width:768px) {
+   
+    body{
+     padding: 10%;
+     
+    }
+     .container{
+        width: 100%;
+        margin: 10px; 
+     }
+     
+   }
